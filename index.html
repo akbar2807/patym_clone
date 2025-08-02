@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Akbar's paytm</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body class="container" style="margin: 0px">
     <nav>
       <ol class="links">
         <img src="./assets/Paytm.png" alt="image" width="150px" height="35px" />
-        <li style="position: relative">
-          Ticket Booking
+        <li style="font-size: 0.9rem; position: relative">
+          Ticket Booking <i class="fa-solid fa-angle-down" style="font-size: 0.8rem;"></i>
           <ol class="tb">
             <li>Movie Tickets</li>
             <br />
@@ -23,8 +23,8 @@
             <br />
           </ol>
         </li>
-        <li style="position: relative">
-          Recharge & Bills
+        <li style="font-size: 0.9rem; position: relative">
+          Recharge & Bills <i class="fa-solid fa-angle-down" style="font-size: 0.8rem;"></i>
           <ol class="rb">
             <li>Mobile Recharge</li>
             <br />
@@ -46,8 +46,8 @@
             <br />
           </ol>
         </li>
-        <li style="position: relative">
-          Payments & Services
+        <li style="font-size: 0.9rem; position: relative">
+          Payments & Services <i class="fa-solid fa-angle-down" style="font-size: 0.8rem;"></i>
           <ol class="ps">
             <li>Payments</li>
             <br />
@@ -57,8 +57,8 @@
             <br />
           </ol>
         </li>
-        <li style="position: relative">
-          Patym for Business
+        <li style="font-size: 0.9rem; position: relative">
+          Patym for Business <i class="fa-solid fa-angle-down" style="font-size: 0.8rem;"></i>
           <ol class="pb">
             <li>Online Payments</li>
             <br />
@@ -69,11 +69,12 @@
             <li>Business Lending</li>
             <br />
             <li>Insurance</li>
+            <br>
             <li>For Developers - API</li>
           </ol>
         </li>
-        <li style="position: relative">
-          Company
+        <li style="font-size: 0.9rem; position: relative ">
+          Company <i class="fa-solid fa-angle-down" style="font-size: 0.8rem;"></i>
           <ol class="c">
             <li>About</li>
             <br />
@@ -113,14 +114,340 @@
         </li>
       </ol>
     </nav>
-    <div>
-      <ul style="list-style-type: none; display: flex; gap: 10px">
-        <li>Flights</li>
-        <li>Trains</li>
-        <li>Buses</li>
-        <li>Intl.Flights</li>
-      </ul>
+    <div class="c1">
+      <div class="s1">
+        <span><i class="fa-solid fa-plane"></i> Flights</span>
+        <span><i class="fa-solid fa-bus"></i> Buses</span>
+        <span><i class="fa-solid fa-train"></i> Trains</span>
+        <span><i class="fa-solid fa-jet-fighter"></i> Intl. Flights</span>
+      </div>
+      <div class="s2">
+        <img src="./assets/paytm travel.png" alt="paytmtravel" width="130px" height="45px">
+      </div>
     </div>
+    <!-- <div class="container">
+
+      <div class="card">
+        <div class="card1">
+          <input type="radio" id="oneway" name="card1">
+          <label for="oneway"> One Way</label>
+          <input type="radio" id="intl" name="card1">
+          <label for="intl"> Round Trip</label>
+        </div><br>
+        <ol style="color: gray; font-weight: normal;">
+          <li>From</li>
+          <li>To</li>
+          <li>Depart</li>
+          <li>Return</li>  
+          <li>Passenger & Class</li>
+        </ol>
+        <ol>
+          <li>Delhi (DEL) </li>
+          <li>
+              Hyderabad (HYD)
+          </li>
+          <li>Mon, 28 Jul 2025</li>
+          <li style="color:rgb(9, 179, 247);">Add Return</li>
+          <li>1 Traveller, Economy</li>
+        </ol>
+      </div>
+    </div> -->
+    <div class="flight-box">
+      <div class="trip-type">
+        <label style="font-weight: normal; color: black;"><input type="radio" id="oneway" name="trip"/> One Way</label>
+        <label style="font-weight: normal; color: black;"><input type="radio" id="rtrip" name="trip"/> Round Trip</label>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label style="font-weight: normal;">From</label>
+          <label style="color: black;">Vijayawada (VGA)</label>
+        </div>
+        <img src="https://pwebassets.paytm.com/frontendcommonweb/static/e5e744ba..png" alt="direction" width="25px" height="25px">
+        <div class="form-group">
+          <label style="font-weight: normal;">To</label>
+          <label style="color: black;">Hyderabad (HYD)</label>
+        </div>
+        <div class="form-group">
+          <label style="font-weight: normal;">Depart</label>
+          <label style="color: black;">Mon, 28 Jul 2025</label>
+        </div>
+        <div class="form-group">
+          <label style="font-weight: normal; margin-bottom: 5px;">Return</label>
+          <label style="color: rgb(17, 181, 246)">Add Return</label>
+        </div>
+        <div class="form-group">
+          <label style="font-weight: normal;">Passenger & Class</label>
+          <label style="color: black;">1 Traveller,Economy</label>
+        </div>
+        <button class="button">Search Flights</button>
+      </div>
+      <hr>
+      <div class="special-fares">
+        <p><span style="color: gray; font-weight: normal;">Special Fares (optional)</span><br><span style="color: green; font-weight: bold;">💰 Extra Savings</span></p>
+        <span>
+          <button>Armed Forces<br>Up to ₹600 off</button>
+          <button>Student<br>Extra Baggage</button>
+          <button>Senior Citizen<br>Up to ₹600 off</button>
+        </span>
+      </div>
+    </div>
+    <br><br>
+    <div style="display: flex; justify-content: space-around; align-items: center;">
+      <i class="fa-solid fa-circle-arrow-left" style="font-size: 2rem;"></i>
+      <img src="https://assetscdn1.paytm.com/images/catalog/view_item/3022660/21014671539608848.png" alt="image" width="350px" height="150px">
+      <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2989754/20648336079148066.png" alt="image" width="350px" height="150px">
+      <img src="https://assetscdn1.paytm.com/images/catalog/view_item/3134667/20217254281482763.png" alt="image" width="350px" height="150px">
+      <i class="fa-solid fa-circle-arrow-right" style="font-size: 2rem;"></i>
+    </div>
+    <!-- Section - 3 -->
+    <div class="sec3">
+      <div class="recharges">
+        <div class="card">
+          <div class="card-header">
+            <h3>Recharges</h3>
+          </div>
+          <div class="card-body" style="display: flex; justify-content: space-evenly;">
+            <div class="mcharge">
+              <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2988613/26703338778768661.png" alt="mobile" width="50px" height="60px">
+              <div>Mobile <br> Recharge</div>
+            </div>
+            <div class="fcharge">
+              <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2988614/19614608007586469.png" alt="fastag" width="50px" height="60px">
+              <div>FASTag <br>Recharge</div>
+            </div>
+            <div class="dcharge">
+              <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2988612/26703374140606265.png" alt="dish" width="50px" height="60px">
+              <div>FASTag <br>Recharge</div>
+            </div>
+            <div class="viewp">
+              <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2988615/19614637083573629.png" alt="viewproduct" width="50px" height="60px">
+              <div>View All<br>Products</div>
+            </div>
+          </div>
+          <div class="card-footer" style="padding: 15px; cursor: pointer;">
+            <img src="https://assetscdn1.paytm.com/images/catalog/view/1752666805814.png" alt="bt" width="500px" height="60px">
+          </div>
+        </div>
+      </div>
+      <div class="billpayments">
+        <div class="card">
+          <div class="card-header">
+            <h3>Bill Payments</h3>
+          </div>
+          <div class="card-body" style="display: flex; justify-content: space-evenly;">
+            <div class="mcharge">
+              <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2988617/26703405458074894.png" alt="mobile" width="50px" height="60px">
+              <div>Electricity <br> Bill</div>
+            </div>
+            <div class="fcharge">
+              <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2988616/19614670037666787.png" alt="fastag" width="50px" height="60px">
+              <div>LIC /<br>Insurance</div>
+            </div>
+            <div class="dcharge">
+              <img src="https://assetscdn1.paytm.com/images/catalog/view_item/3075896/19614703601071380.png" alt="dish" width="50px" height="60px">
+              <div>Loan EMI<br>Payment</div>
+            </div>
+            <div class="viewp">
+              <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2988615/19614637083573629.png" alt="viewproduct" width="50px" height="60px">
+              <div>View All<br>Products</div>
+            </div>
+          </div>
+          <div class="card-footer" style="padding: 15px; cursor: pointer;">
+            <img src="https://assetscdn1.paytm.com/images/catalog/view/1752666820761.png" alt="bt" width="500px" height="60px">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Section - 4 -->
+    <div class="sec4">
+      <div class="card sec4card">
+        <div class="cs1" style="padding-left: 70px; padding-top: 50px;">
+          <div class="card-header">
+            <img src="https://assetscdn1.paytm.com/images/catalog/view/308774/1617696247991.png" alt="paytm" width="120px" height="65px">
+            <p style="font-size: 2rem;">
+              Everything you need to <br> start your <span style="color: rgb(17, 181, 246)">investment <br>journey</span> 
+            </p>
+          </div>
+          <div class="card-body">
+            <p style="font-weight: normal; font-size: 1.1rem;">
+              Whether you're a beginner or pro, Paytm Money <br>helps you invest smarter and achieve financial <br>independence. Get access to expert opinion, mutual <br>fund SIP, F&O trading, and much more - all in one app.
+            </p>
+          </div>
+          <div class="card-footer">
+            <button style="color: aliceblue; background-color: #002970; padding: 10px 10px; border-radius: 30px; font-size: 1.1rem;">Learn More  <i class="fa-solid fa-arrow-right"></i></button><br><br>
+            <p style="font-size: 0.8rem; font-weight: normal;">Investments in the securities market are subject to market risks, read all <br> the related documents carefully before investing. For complete Terms & Conditions and Disclaimers visit: 
+              <a style="color: rgb(17, 181, 246); font-size: 0.8rem;" href="https://www.paytmmoney.com/stocks/policies/terms">https://www.paytmmoney.com/stocks/policies/terms</a></p>
+          </div>
+        </div>
+        <div class="cs2 " style="justify-content: flex-end; padding-top: 15px;">
+          <img src="https://assetscdn1.paytm.com/images/catalog/view/1752737003196.png" alt="image" width="600px" height="570px">
+        </div>
+      </div>
+    </div>
+    <!-- Section - 5 -->
+    <div style="max-width: 1500px; margin: 30px; height: 50px;">
+        <div class="sec5">
+          <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2832559/1725599834382.png" alt="" width="50px" height="50px">
+          <p style="color: white; font-size: 1.2rem;"> 24x7 Trusteed customer support to assist and help you in every stop of 
+            journey
+          </p>
+          <button style="background-color: #002970; color: aliceblue; padding: 10px 25px; border-radius: 40px; ">
+            Learn More  <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+      <!-- Section - 6 -->
+      <div class="sec6">
+        <div class="card c1sec6" style="background-color:rgb(227, 241, 254);">
+          <div class="card-header">
+            <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2988623/27220898816562102.png" alt="" width="140px" height="80px">
+            <p style="font-size: 2rem;">One Destination for <br><span style="color: rgb(17, 181, 246);">Credit Cards </span></p>
+          </div>
+          <div class="card-body">
+            <p style="font-size: 1.1rem;">
+              Paytm HDFC, SBI Card & Axis Bank Credit Card with assured Cashback and incredible offers.
+            </p>
+              <button style="background-color: aliceblue;color: #002970; padding: 8px 15px; border-radius: 30px; text-align: center;
+             font-weight: 700; gap: 7px;">
+              Apply Now <i class="fa-solid fa-arrow-right"></i> 
+            </button><br><br>
+            <span> <img src="https://assetscdn1.paytm.com/images/catalog/view_item/1741675100265.png" alt="" width="230px" height="40px"> </span>
+          </div> 
+          <div class="card-footer"  style="text-align: center;">
+            <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2988623/27221716933469500.png" alt="" width="450px" height="350px">
+          </div>
+        </div>
+        <div class="card c2sec6 " style="background-color: rgb(212, 244, 255); padding-top: 50px;">
+          <div class="card-header">
+            <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2834804/1725623952233.png" alt="" width="160px" height="50px">
+            <p style="font-size: 2.3rem;">Insurance ka <br><span style="color: rgb(17, 181, 246);">Super Market </span></p>
+          </div>
+          <div class="card-body">
+            <p style="font-size: 1.1rem;">
+              A Smart, Simple & Transparent Platform to Explore & Purchase Insurance.
+            </p>
+            <button style="background-color: aliceblue;color: #002970; padding: 8px 15px; border-radius: 30px; text-align: center; display: inline-flex; align-items: center; font-weight: 700; gap: 7px;">
+              Get It Now  <i class="fa-solid fa-arrow-right"> </i> 
+            </button><br><br>
+          </div>
+          <div class="card-footer" style="text-align: center;">
+            <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2988624/27217428616091880.png" alt="" width="500px" height="350px">
+          </div>
+        </div>
+      </div>
+      <!-- Section - 7 -->
+      <div class="sec7">
+        <div class="card sec4card" style="background-color: aliceblue;">
+          <div class="cs1" style="padding-left: 70px; padding-top: 50px;">
+            <div class="card-header">
+              <img src="./assets/Paytm.png" alt="image" width="150px" height="35px" />
+              <p style="font-size: 2.6rem;">
+                Pay anyone directly  <br> from your <span style="color: rgb(17, 181, 246)">bank <br>account</span> 
+              </p>
+            </div>
+            <div class="card-body">
+              <p style="font-weight: normal; font-size: 1.1rem;">
+                Pay anyone, everywhere. Make contactless & secure <br>payments in-stores or online using Paytm UPI or <br>Directly from your Bank Account. Plus, send & <br>receive money from anyone.
+              </p>
+            </div>
+            <div class="card-footer">
+              <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2834703/1725432129171.png" alt="" width="150px" height="45px" >
+              <img src="https://assetscdn1.paytm.com/images/catalog/view_item/2834704/1725432148873.png" alt="" width="150px" height="45px">
+            </div>
+          </div>
+          <div class="cs2 " style="justify-content: flex-end; padding-top: 15px;">
+            <img src="https://assetscdn1.paytm.com/images/catalog/view/1752741641420.png" alt="image" width="570px" height="570px">
+          </div>
+        </div>
+      </div>
+      <!-- Section - 8 -->
+      <div class="sec8">
+        <div class="card sec4card" style="background-color: aliceblue; ">
+          <div class="cs1" style="padding-left: 70px; padding-top: 50px;">
+            <div class="card-header">
+              <img src="https://assetscdn1.paytm.com/images/catalog/view/342368/1725447964962.png" alt="image" width="100px"  height="70px" />
+              <p style="font-size: 2.6rem;">
+                Accept payments <br> <span style="color: rgb(17, 181, 246)">Online & Offline</span> 
+              </p>
+            </div>
+            <div class="card-body">
+              <p style="font-weight: 500; font-size: 1.1rem;">
+                Millions of small & big businesses use Paytm to<br>accept payments anywhere any time with a wide<br>range of solutions for all kind of merchants<br>
+              </p>
+            </div>
+            <div class="card-footer">
+              <button style="background-color: #002970; color: aliceblue; padding: 10px 25px; border-radius: 40px; font-weight: 700; ">
+                Learn More  <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="cs2 " style="justify-content: flex-end; padding-top: 15px;">
+            <img src="https://assetscdn1.paytm.com/images/catalog/view/1752735625336.png" alt="image" width="570px" height="570px">
+          </div>
+        </div>
+      </div>
+      <!-- Section -9  -->
+      <div class="Section9" style="background-color: white; ">
+        <div class="sec9">
+          <span> + Investor Relations </span>
+          <div class="line"></div>
+        </div>
+        <div class="sec9">
+          <span> + More About Paytm </span>
+          <div class="line"></div>
+        </div>
+        <div class="sec9">
+          <span> + Company </span>
+          <div class="line"></div>
+        </div>
+        <div class="sec9">
+          <span> Career </span>
+          <div class="line"></div>
+        </div>
+        <div class="sec9">
+          <span> + Recharge & pay bills </span>
+          <div class="line"></div>
+        </div>
+        <div class="sec9">
+          <span> + Pay Loan EMI, Insurance Premiums & Education Fee </span>
+          <div class="line"></div>
+        </div>
+        <div class="sec9">
+          <span> + Book Travel & Entertainment </span>
+          <div class="line"></div>
+        </div>
+        <div class="sec9">
+          <span> + Investments & Miscellaneous </span>
+          <div class="line"></div>
+        </div>
+        <div class="sec9">
+          <span> + Loans and Credit Cards </span>
+          <div class="line"></div>
+        </div>
+        <div class="sec9">
+          <span> + Financial Tools & Calculators </span>
+          <div class="line"></div>
+        </div>
+        <hr>
+        <div class="s9">
+          <span> © 2025 Paytm </span>
+          <span>Follow Us 
+            <i class="fa-brands fa-facebook"> </i>
+            <i class="fa-brands fa-square-x-twitter"> </i>
+            <i class="fa-brands fa-youtube"> </i>
+            <i class="fa-brands fa-linkedin"> </i>
+            <i class="fa-brands fa-instagram"> </i>
+          </span>
+        </div>
+        <div style="background-color: rgb(0, 188, 242);color: rgb(0, 188, 242);">
+          blue
+        </div>
+        <div style="background-color: #002970; color: #002970;">
+          darkblue
+        </div>
+      </div>
+
+
     <script
       src="https://kit.fontawesome.com/bf98aa3c2d.js"
       crossorigin="anonymous"
